@@ -46,7 +46,7 @@ section{
     font-size: 20px;
     border-radius: 5px;
     color: white;
-    background-color: red;
+    background-color: var(--primary);
     width: 187px;
     height: 56px;
     border: none;
@@ -63,6 +63,7 @@ section{
     margin: 50px 140px;
 }
 .sidebar{
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,7 +74,7 @@ section{
     border-radius: 10px;
 }
 .sidebar-btn{
-    font-size: 20px;
+    font-size: 16px;
     margin: 10px 15px;
     text-decoration: none;
     padding: 10px;
@@ -83,7 +84,7 @@ section{
     border-radius: 5px;
 }
 .active-btn{
-    background-color: red;
+    background-color: var(--primary);
     color: white;
 }
 .blogs-grid{
@@ -112,7 +113,7 @@ section{
     width: 100%;
 }
 .blog-detail{
-    padding: 10px;
+    padding: 20px;
 }
 .transfer{
     border: 1px solid gray;
@@ -161,5 +162,13 @@ hr{
     border: none;
 }
 .footer-menu p{
-    margin:  10px;
+    margin:  10px 10px 0 10px ;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    
+}
+.social> i{
+    margin: 0 15px 30px 15px;
 }
