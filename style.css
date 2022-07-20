@@ -1,0 +1,153 @@
+@media screen {
+    
+}
+
+/* Top Banner Styles */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    margin-bottom: 50px;
+}
+.hero-content{
+   
+    margin: 20px 140px ;
+    background-color: #161616;
+    display: flex;
+    border-radius: 10px;
+}
+#hero-text{
+    width: 531px;
+    height: 424px;
+    margin: 90px;
+}
+.half-width{
+   
+    width: 50%;
+    color: white;
+   
+}
+
+#hero-text> h1{
+    font-size: 50px;
+}
+
+.half-width> img{
+    display: flex;
+    margin: 0;
+    width: 580px;
+    height: 610px; 
+    position: relative; 
+    bottom: 0;  
+}
+.link-btn{
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    width: 187px;
+    height: 56px;
+    border: none;
+    
+}
+
+
+
+.link-btn:hover {
+    background-color: var(--secondary);
+}
+.mid-section{
+    display: flex;
+    margin: 50px 140px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 312px;
+    height: 312px;
+    background-color:#161616 ;
+    border-radius: 10px;
+}
+.sidebar-btn{
+    font-size: 20px;
+    margin: 10px 15px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    width: 212px;
+    background-color: white ;
+    border-radius: 5px;
+}
+.active-btn{
+    background-color: red;
+    color: white;
+}
+.blogs-grid{
+    margin-left: 15px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.blog{
+    margin:0 0px 15px 15px;
+    box-shadow: 1px 1px 5px #a7a7a7 ;
+    border-radius: 10px;
+    line-height: 30px;
+}
+.blog h3{
+    font-weight: 500;
+}
+.blog-icons{
+    display: flex;
+    
+}
+.blog-icons p{
+    margin: 10px;
+}
+.blog> img{
+    width: 100%;
+}
+.blog-detail{
+    padding: 10px;
+}
+.transfer{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+.fa-timer{
+   fill: #161616;
+   background-color: #a7a7a7;
+   color: #161616;
+}
+footer{
+    width: 100vw;
+    color: rgb(204, 204, 204);
+    background-color: #161616;
+}
+.footer-section{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-menu{
+    margin-top: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+hr{
+    width: 80%;
+    height: 1px;
+    background-color: rgb(89, 89, 89);
+    border: none;
+}
+.footer-menu p{
+    margin:  10px;
+}
