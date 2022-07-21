@@ -77,25 +77,25 @@ footer{
     height: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .footer-menu  ul{
+    width: 60%;
+    justify-content: space-around;
     display: flex;
+    flex-wrap: wrap;
+
     
 
 }
 .footer-menu ul li{
-    margin: 0 10px;
+    margin: 10px;
     text-decoration: none;
     list-style: none;
 
 
 }
-hr{
-    width: 80%;
-    height: 1px;
-    background-color: rgb(89, 89, 89);
-    border: none;
-}
+
 .footer-menu p{
     margin:  10px 10px 0 10px ;
 }
@@ -127,6 +127,20 @@ hr{
 }
 
 
+.view-all-btn{
+    
+    margin: 10px auto;
+    display: none;
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary);
+    width: 80px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
 
 
 
@@ -152,6 +166,8 @@ hr{
     }
     .half-width> img{
         display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         margin-bottom: 0;
         bottom: 0;  
@@ -167,9 +183,8 @@ hr{
     #hero-text p{
         text-align: center;
         font-size: small;
-        
         overflow: hidden;
-        text-overflow: ellipsis white;
+        text-overflow: ellipsis;
     }
     #hero-text{
         width: 100%;
@@ -185,13 +200,13 @@ hr{
         margin: 50px 140px;
         align-items: center;
     }
-    .link-btn{
-        
-    }
+    
+    
     .footer-menu{
        
         margin: 30px;
     }
+    
     .footer-menu  ul{
         display: flex;
         align-items: center;
@@ -278,6 +293,9 @@ hr{
     }
 /* ---------------------------------------------------------------------- */
     /* Mid section for medium device */
+    .view-all-btn{
+        display: flex;
+    }
     .sidebar{
         
         display: flex;
@@ -396,4 +414,13 @@ hr{
     
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    } }
+    } 
+}
+.footer-section{
+    margin-bottom: 20px;
+    width: 100%;
+    border-bottom: 0 0 1px 0 solid lightslategray;
+}
+.footer-logo{
+    margin: 0;
+}
